@@ -1,0 +1,32 @@
+[
+	{
+	"holiday":"New Year Day",
+	"date":"2024-01-01",
+	"country":"US, Canada"
+	},
+	{
+	"holiday":"Presidents' Day",
+	"date":"2024-02-19",
+	"country":"US, Canada"
+	},
+	{
+	"holiday":"Good Friday",
+	"date":"2024-03-29",
+	"country":"Canada"
+	},
+	{
+	"holiday":"Easter Monday",
+	"date":"2024-04-01",
+	"country":"Canada"
+	},
+	{
+	"holiday":"Civic Holiday",
+	"date":"2024-08-05",
+	"country":"US, Canada"
+	},
+	{
+	"holiday":"Thanksgiving Day",
+	"date":"2024-10-14",
+	"country":"US, Canada"
+	}
+]
