@@ -1,0 +1,90 @@
+{
+      "info": {
+            "_postman_id": "0aa393f5-379e-47ae-aad2-d30e558fb240",
+            "name": "Holiday Service",
+            "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+            "_exporter_id": "34225283"
+      },
+      "item": [
+            {
+                  "name": "http://localhost:8080/holidayservice/get-all-holidays",
+                  "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": "http://localhost:8080/holidayservice/get-all-holidays"
+                  },
+                  "response": []
+            },
+            {
+                  "name": "http://localhost:8080/holidayservice/get-holiday-by-id?holidayId=1",
+                  "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                              "raw": "http://localhost:8080/holidayservice/get-holiday-by-id?holidayId=1",
+                              "protocol": "http",
+                              "host": [
+                                    "localhost"
+                              ],
+                              "port": "8080",
+                              "path": [
+                                    "holidayservice",
+                                    "get-holiday-by-id"
+                              ],
+                              "query": [
+                                    {
+                                          "key": "holidayId",
+                                          "value": "1"
+                                    }
+                              ]
+                        }
+                  },
+                  "response": []
+            },
+            {
+                  "name": "http://localhost:8080/holidayservice/add-holiday",
+                  "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                              "mode": "raw",
+                              "raw": "{\r
+  \"holiday\": \"New Year\",\r
+  \"date\": \"2024-04-11\",\r
+  \"country\": \"US, CANADA\"\r
+}",
+                              "options": {
+                                    "raw": {
+                                          "language": "json"
+                                    }
+                              }
+                        },
+                        "url": "http://localhost:8080/holidayservice/add-holiday"
+                  },
+                  "response": []
+            },
+            {
+                  "name": "http://localhost:8080/holidayservice/update-holiday",
+                  "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                              "mode": "raw",
+                              "raw": "{\r
+  \"id\": 1,\r
+  \"holiday\": \"New Year's Day\",\r
+  \"date\": \"2024-04-11\",\r
+  \"country\": \"US and CANADA\"\r
+}",
+                              "options": {
+                                    "raw": {
+                                          "language": "json"
+                                    }
+                              }
+                        },
+                        "url": "http://localhost:8080/holidayservice/update-holiday"
+                  },
+                  "response": []
+            }
+      ]
+}
